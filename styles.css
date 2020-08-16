@@ -23,6 +23,11 @@ body {
     padding: 10px;
     box-shadow: 0 0 10px 2px;
   }
+  h1 {
+      display: inline-flex;
+      align-items: center;
+      
+  }
 
 .btn-grid {
     display: grid;
@@ -38,13 +43,14 @@ body {
 
 .btn.correct {
     color: limegreen;
+    font-weight: bolder;
   }
   
   .btn.wrong {
     color: red;
   }
 
-  .start-btn {
+  .start-btn, .next-btn {
       font-weight: bold;
       padding: 10px 20px;
   }
